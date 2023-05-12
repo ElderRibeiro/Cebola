@@ -1,0 +1,9 @@
+:root {
+    --bg-color: rgb(23, 201, 23);
+}
+body {
+    background-color: var(--bg-color);
+}
+h1 {
+    background-color: rgb(8, 252, 8);
+}
