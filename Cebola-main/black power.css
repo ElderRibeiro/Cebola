@@ -1,9 +1,26 @@
 :root {
-    --bg-color: rgb(23, 201, 23);
+--cor-cabecalho: red;
+}.cabecalho {
+    background-color:gold;
 }
-body {
-    background-color: var(--bg-color);
+.cabecalho-titulo {
+    font-size: 85px;
+    font-weight: 75800;
+    padding: 15px;
+    text-align: center;
+
 }
-h1 {
-    background-color: rgb(8, 252, 8);
+.cabecalho-menu {
+    display: block;
+    padding: 10px;
+    font-size: 60px;
+    text-decoration: none;
+    color: red;
+    text-align:center;
+    border-top: 10px solid;
+    border-left: 10px solid;
+    border-right: 10px solid;
+}
+.cabecalho-menu-item {
+    color: red;
 }
